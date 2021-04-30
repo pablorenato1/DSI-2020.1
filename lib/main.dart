@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('App de Listagem - DSI/BSI/UFRPE'),
         actions: [
-          IconButton(icon: Icon(Icons.lens), onPressed: null),
+          IconButton(icon: Icon(Icons.search), onPressed: null),
         ],
       ),
       body: _pages[pageIndex],
